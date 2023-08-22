@@ -1,0 +1,16 @@
+.counterContainer{
+    display: flex;/*ss*/
+    flex-direction: column; /*default row*/
+    gap: 10px; 
+    align-items: center;/* סידור הכל באמצע*/
+    border :1px solid salmon;
+    width:  300px;
+    padding: 20px;
+}
+.btn{
+    width: 200px;
+}
+.txt{
+    color: blue;
+    font-size: 30px;
+}

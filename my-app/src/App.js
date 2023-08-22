@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from "react";
 import Count from './Compenent/Count';
+import StringA from './Compenent/StringA';
 function App() {
   const [count,setCount] = useState(0);
   function inc() {
@@ -17,7 +18,10 @@ function App() {
       {/* <button onClick={inc}> click me</button>
       <button onClick={()=>inc2(2)}> click me 2</button>
       <p>{count}</p> */}
-      <Count></Count>
+      <div className="counter">
+        <Count></Count>
+        <StringA></StringA>
+        </div>
     </div>
     
    
